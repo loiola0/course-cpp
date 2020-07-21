@@ -4,12 +4,32 @@
 using namespace std;
 
 class Carro{
+    private:
+        string brand;
+        int year;
+
     public:
-        string marca;
-        int ano;
-        string cor;
+        void setBrand(string x){
+            brand = x;
+        }
 
+        string getBrand(){
+            return brand;
+        }
 
+        void setYear(int y){
+            if(y > 1990){
+                year = y;
+            }else{
+                year = 1990;
+            }
+        }
+
+        int getYear(){
+            return year;
+        }
+
+        
 };
 
 
@@ -17,11 +37,11 @@ int main(){
 
     Carro c1;
 
-    c1.marca = "fiat";
-    c1.ano = 2020;
-    c1.cor = "preto";
+    c1.setBrand("ferrari");
+    c1.setYear(1991);
 
-    cout<<c1.marca<<" "<<c1.cor<<" "<<c1.ano<<endl;
+    cout << c1.getBrand()<<" "<<c1.getYear()<<endl;   
+    
 
 
 }
