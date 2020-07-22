@@ -1,5 +1,6 @@
 
 #include <string>
+#include <iostream>
 using namespace std;
 
 #include "Carro.h"
@@ -24,3 +25,15 @@ int Carro::getYear(){
     return year;
 }
 
+Carro::Carro(){
+    this->brand = "FIAT";
+}
+
+Carro::Carro(string brand, int year){
+    this->brand = brand;
+    this->year = year;
+}
+
+Carro::~Carro(){
+    cout<<"The Car Was Destroyed!"<<endl;
+}
