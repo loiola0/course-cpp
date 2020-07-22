@@ -9,19 +9,19 @@ class Carro{
         int year;
 
     public:
-        void setBrand(string x){
-            brand = x;
+        void setBrand(string brand){
+            this->brand = brand;
         }
 
         string getBrand(){
             return brand;
         }
 
-        void setYear(int y){
-            if(y > 1990){
-                year = y;
+        void setYear(int year){
+            if(year > 1990){
+                this->year = year;
             }else{
-                year = 1990;
+                this->year = 1990;
             }
         }
 
@@ -40,8 +40,7 @@ int main(){
     c1.setBrand("ferrari");
     c1.setYear(1991);
 
-    cout << c1.getBrand()<<" "<<c1.getYear()<<endl;   
-    
+    cout << c1.getBrand()<<" "<<c1.getYear()<<endl; 
 
 
 }
