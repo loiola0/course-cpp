@@ -6,6 +6,9 @@ using namespace std;
 
 class Carro{
     public:
+      // Attributes Statics
+        static int tires;
+
       //Constructors
         Carro();
         Carro(string brand, int year);
@@ -19,6 +22,7 @@ class Carro{
         void setYear(int year);
         int getYear();
     private:
+     //Attributes
         string brand;
         int year;
 };

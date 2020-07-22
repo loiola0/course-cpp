@@ -17,8 +17,10 @@ int main(){
 
     c2.setYear(2019);
 
-    cout <<"Carro-01: "<<c1.getBrand()<<" "<<c1.getYear()<<endl;
-    cout <<"Carro-02: "<<c2.getBrand()<<" "<<c2.getYear()<<endl; 
+    c1.tires = 2;
+
+    cout <<"Carro-01: "<<c1.getBrand()<<" Pneus: "<<c1.tires<<" Ano: "<<c1.getYear()<<endl;
+    cout <<"Carro-02: "<<c2.getBrand()<<" Pneus: "<<c2.tires<<" Ano: "<<c2.getYear()<<endl; 
 
 
 }

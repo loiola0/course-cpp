@@ -37,3 +37,5 @@ Carro::Carro(string brand, int year){
 Carro::~Carro(){
     cout<<"The Car Was Destroyed!"<<endl;
 }
+
+int Carro::tires = 4;
