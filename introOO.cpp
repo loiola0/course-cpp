@@ -1,7 +1,7 @@
 #include <iostream>
 
 
-#include "Carro.cpp"
+#include "Carro.h"
 
 using namespace std;
 
