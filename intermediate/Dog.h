@@ -4,10 +4,11 @@
 #include <string>
 
 #include "Mammal.cpp"
+#include "Pet.cpp"
 
 using namespace std;
 
-class Dog : public Mammal{
+class Dog : public Mammal, public Pet{
     public:
 
         Dog();
