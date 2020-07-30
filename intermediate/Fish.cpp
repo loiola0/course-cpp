@@ -26,3 +26,7 @@ string Fish::isSweetWater(){
         return "No";
     }
 }
+
+void Fish::iAm(){
+    cout << "I am a FISH"<<endl;
+}

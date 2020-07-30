@@ -17,6 +17,9 @@ class Animal{
         void setYear(int year);
         int getYear();
 
+        //método abstrasto
+        virtual void iAm() = 0;
+
 
     private:
         string name;

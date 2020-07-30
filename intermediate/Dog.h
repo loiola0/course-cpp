@@ -3,11 +3,11 @@
 
 #include <string>
 
-#include "Animal.h"
+#include "Mammal.cpp"
 
 using namespace std;
 
-class Dog : public Animal{
+class Dog : public Mammal{
     public:
 
         Dog();

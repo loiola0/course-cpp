@@ -9,7 +9,7 @@
 
 using namespace std;
 
-class Fish : public Animal{
+class Fish : virtual public Animal{
     public:
 
         Fish();
@@ -17,7 +17,7 @@ class Fish : public Animal{
 
         void setSweetWater(bool sweetWater);
         string isSweetWater();
-
+        void iAm();
 
 
     private:

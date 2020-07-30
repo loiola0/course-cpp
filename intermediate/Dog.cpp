@@ -21,3 +21,8 @@ void Dog::setLegs(int legs){
 int Dog::getLegs(){
     return this->legs;
 }
+
+void Mammal::iAm(){
+    cout<<"I am a Dog"<<endl;
+}
+
