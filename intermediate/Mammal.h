@@ -11,8 +11,8 @@ class Mammal : virtual public Animal{
     public:
         Mammal();
         virtual ~Mammal();
-        void iAmMammal();
-        void iAm();
+        virtual void iAmMammal() = 0;
+        virtual void iAm() = 0;
     private:
 
     protected:

@@ -16,6 +16,8 @@ class Dog : public Mammal, public Pet{
 
         void setLegs(int legs);
         int getLegs();
+        void iAmMammal();
+        void iAm();
 
 
 

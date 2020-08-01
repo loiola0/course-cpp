@@ -26,3 +26,10 @@ void Mammal::iAm(){
     cout<<"I am a Dog"<<endl;
 }
 
+void Dog::iAmMammal(){
+    cout << "I am a mammal." <<endl;
+}
+
+void Dog::iAm(){
+    cout <<"I am a Dog"<<endl;
+}

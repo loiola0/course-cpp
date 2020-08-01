@@ -14,6 +14,6 @@ Mammal::~Mammal(){
 
 
 
-void Mammal::iAmMammal(){
-    cout << "I am a mammal." <<endl;
-}
+// void Mammal::iAmMammal(){
+//     cout << "I am a mammal." <<endl;
+// }
