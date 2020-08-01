@@ -10,20 +10,17 @@ Dog::Dog(){
 
 }
 
+Dog::Dog(string name,int year){
+    setName(name);
+    setYear(year);
+}
+
 Dog::~Dog(){
     cout << "Object 'Dog' has destroyed"<<endl;
 }
 
-void Dog::setLegs(int legs){
-    this->legs = legs;
-}
-
 int Dog::getLegs(){
     return this->legs;
-}
-
-void Mammal::iAm(){
-    cout<<"I am a Dog"<<endl;
 }
 
 void Dog::iAmMammal(){
@@ -32,4 +29,8 @@ void Dog::iAmMammal(){
 
 void Dog::iAm(){
     cout <<"I am a Dog"<<endl;
+}
+
+int Dog::calAgeHuman(int year){
+    return year * 7;
 }

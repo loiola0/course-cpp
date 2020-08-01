@@ -12,18 +12,16 @@ class Dog : public Mammal, public Pet{
     public:
 
         Dog();
+        Dog(string name, int year);
         virtual ~Dog();
-
-        void setLegs(int legs);
         int getLegs();
         void iAmMammal();
         void iAm();
-
-
+        static int calAgeHuman(int year);
 
     private:
         
-        int legs;
+        const static int legs = 4;
 
 };
 
