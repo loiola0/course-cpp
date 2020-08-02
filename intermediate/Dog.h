@@ -18,10 +18,13 @@ class Dog : public Mammal, public Pet{
         void iAmMammal();
         void iAm();
         static int calAgeHuman(int year);
+        //função amiga
+        friend void rationIdeal(Dog& c);
 
     private:
         
         const static int legs = 4;
+        string ration = "goodies";
 
 };
 
